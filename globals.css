@@ -38,42 +38,74 @@ img {
     font-size: 13px;
 }
 
-.user-intro {
+.profile {
+    position: absolute;
+    top: -10px;
+    right: 130px;
+}
+
+.user-intro,
+.user-profile {
     display: inline-block;
     font-weight: bold;
     margin-top: 5px;
     position: absolute;
 }
 
+#header>div.user-profile.mt>p {
+    margin-top: 5px;
+}
+
 .user-profile {
+    white-space: nowrap;
     position: absolute;
     right: 0;
-    top: 0;
-    margin-right: 30px;
+    top: -20px;
+    margin-right: 12vh;
 }
+
+#header>div.user-profile.profile.mt>div>img {
+    height: 30px;
+    width: auto;
+}
+
 
 .mt {
     margin-top: 30px;
 }
 
-.user-section {}
+.user-section {
+    margin-right: 20px
+}
 
 .search-bar {
     background-color: #e2e8f0;
+    border: 0;
+    border-radius: 10px;
+    width: 40%;
+    height: 4%;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    /* margin-left: 90px; */
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    /* background-color: #e2e8f0;
     border: 0;
     border-radius: 10px;
     width: 670px;
     height: 25px;
     padding-left: 10px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 90px;
     position: absolute;
-    top: 0;
+    top: 0; */
 }
 
 .buttons {
     position: absolute;
     right: 0;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #container {
@@ -90,7 +122,7 @@ img {
     color: white;
     padding-left: 1rem;
     padding-top: 1rem;
-    height: 100vh;
+    height: 100%;
     grid-row: 1 / 3;
 }
 

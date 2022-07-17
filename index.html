@@ -13,7 +13,7 @@
 
 <body id="main">
     <div id="container">
-        <div id="sidebar">
+        <nav id="sidebar">
             <ul>
                 <span class="dashboard-main">
                     <li><span class="iconify" data-icon="ci:dashboard"></span>Dashboard</li>
@@ -24,26 +24,30 @@
                 <li><span class="iconify" data-icon="bxs:time-five"></span>History</li>
                 <li><span class="iconify" data-icon="clarity:tasks-solid"></span>Tasks</li>
                 <li><span class="iconify" data-icon="fluent:people-community-28-filled"></span>Communities</li>
-                <li><span class="iconify" data-icon="ci:settings-filled"></span>Settings</li>
+
+                <span class="settings-spacing">
+                    <li><span class="iconify" data-icon="ci:settings-filled"></span>Settings</li>
+                </span>
                 <li><span class="iconify" data-icon="ic:baseline-help-center"></span>Support</li>
                 <li><span class="iconify" data-icon="ant-design:safety-certificate-filled"></span>Privacy</li>
             </ul>
-        </div>
+        </nav>
+
 
         <div id="header">
-
             <div class="search-bar"><span class="iconify" data-icon="ant-design:search-outlined"></span><input
                     type="search"></div>
             <div class="user-section mt">
                 <div><img src="avatar.png" alt="">
                     <div class="user-intro">
                         <span>
-                            <p>Hi there,</p>
+                            <p class="user-intro-text">Hi there,</p>
                         </span>
                         <p>John Doe (@JohnDoe)</p>
                     </div>
                 </div>
             </div>
+
 
 
             <div class="buttons">
@@ -58,42 +62,42 @@
                 </span>
                 <div id="projects-grid">
                     <div>
-                        <h1>Super Cool Project 1</h1>
+                        <h3>Super Cool Project 1</h3>
                         <div>
                             <p>Text just to fill the screen text just to fill the screen text just to fill the screen
                                 text just to fill the screen </p>
                         </div>
                     </div>
                     <div>
-                        <h1>Super Cool Project 2</h1>
+                        <h3>Super Cool Project 2</h3>
                         <div>
                             <p>Text just to fill the screen text just to fill the screen text just to fill the screen
                                 text just to fill the screen </p>
                         </div>
                     </div>
                     <div>
-                        <h1>Super Cool Project 3</h1>
+                        <h3>Super Cool Project 3</h3>
                         <div>
                             <p>Text just to fill the screen text just to fill the screen text just to fill the screen
                                 text just to fill the screen </p>
                         </div>
                     </div>
                     <div>
-                        <h1>Super Cool Project 4</h1>
+                        <h3>Super Cool Project 4</h3>
                         <div>
                             <p>Text just to fill the screen text just to fill the screen text just to fill the screen
                                 text just to fill the screen </p>
                         </div>
                     </div>
                     <div>
-                        <h1>Super Cool Project 5</h1>
+                        <h3>Super Cool Project 5</h3>
                         <div>
                             <p>Text just to fill the screen text just to fill the screen text just to fill the screen
                                 text just to fill the screen </p>
                         </div>
                     </div>
                     <div>
-                        <h1>Super Cool Project 6</h1>
+                        <h3>Super Cool Project 6</h3>
                         <div>
                             <p>Text just to fill the screen text just to fill the screen text just to fill the screen
                                 text just to fill the screen </p>
@@ -103,19 +107,53 @@
             </div>
 
             <div class="user-profile profile mt">
-                <div><img src="avatar.png" alt="">
+                <div><img src="avatar.png" alt="" class="profile-image">
                     <div class="user-intro">
-                        <p>John Doe</p>
+                        <p class="profile-name">John Doe</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <article>
+        <h1>Announcements</h1>
+        <div id="card">
+            <h3>Site maintenance</h3>
+            <p>Text just to fill the screen text just to fill the screen text just to fill the screen
+                text just to fill the screen </p>
+            <hr>
 
+            <h3>Community Share Day</h3>
+            <p>Text just to fill the screen text just to fill the screen text just to fill the screen
+                text just to fill the screen </p>
+            <hr>
 
+            <h3>Updated Privacy Policy</h3>
+            <p>Text just to fill the screen text just to fill the screen text just to fill the screen
+                text just to fill the screen </p>
+        </div>
+    </article>
 
-
+    <div style="margin-right: 113px;
+    margin-top: -400px;">
+        <h1 style="    float: right;
+    margin-top: -103px;
+    margin-right: 188px;">Trending</h1>
+        <div style="    margin-top: -75px;
+    border: 1px solid blue;
+    width: 250px;
+    float: right;">
+            <p class="profile-name"><img src="avatar.png" alt="" class="profile-image">@JohnDoe</p>
+            <p>Text here</p>
+            <p class="profile-name"><img src="avatar.png" alt="" class="profile-image">@JohnDoe</p>
+            <p>Text here</p>
+            <p class="profile-name"><img src="avatar.png" alt="" class="profile-image">@JohnDoe</p>
+            <p>Text here</p>
+            <p class="profile-name"><img src="avatar.png" alt="" class="profile-image">@JohnDoe</p>
+            <p>Text here</p>
+        </div>
+    </div>
 
 </body>
 

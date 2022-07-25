@@ -5,156 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="globals.css">
-    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="globals.css" type="text/css">
+    <script src="main.js"></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <title>Dashboard</title>
 </head>
 
-<body id="main">
-    <div id="container">
-        <nav id="sidebar">
-            <ul>
-                <span class="dashboard-main">
-                    <li><span class="iconify" data-icon="ci:dashboard"></span>Dashboard</li>
-                </span>
-                <li><span class="iconify" data-icon="ci:home-alt-fill"></span>Home</li>
-                <li><span class="iconify" data-icon="icomoon-free:profile"></span>Profile</li>
-                <li><span class="iconify" data-icon="bxs:message" data-flip="horizontal"></span>Messages</li>
-                <li><span class="iconify" data-icon="bxs:time-five"></span>History</li>
-                <li><span class="iconify" data-icon="clarity:tasks-solid"></span>Tasks</li>
-                <li><span class="iconify" data-icon="fluent:people-community-28-filled"></span>Communities</li>
-
-                <span class="settings-spacing">
+<body>
+    <div id="grid">
+        <div class="left">
+            <aside class="sidebar">
+                <ul>
+                    <li class="item-spacing"><span class="iconify" data-icon="ci:dashboard"></span>Dashboard</li>
+                    <li><span class="iconify" data-icon="ant-design:profile-filled"></span>Profile</li>
+                    <li><span class="iconify" data-icon="bxs:message" data-flip="horizontal"></span>Messages</li>
+                    <li><span class="iconify" data-icon="bxs:time-five"></span>History</li>
+                    <li><span class="iconify" data-icon="clarity:tasks-solid"></span>Tasks</li>
+                    <li class="item-spacing"><span class="iconify"
+                            data-icon="fluent:people-community-28-filled"></span>Communities</li>
                     <li><span class="iconify" data-icon="ci:settings-filled"></span>Settings</li>
-                </span>
-                <li><span class="iconify" data-icon="ic:baseline-help-center"></span>Support</li>
-                <li><span class="iconify" data-icon="ant-design:safety-certificate-filled"></span>Privacy</li>
-            </ul>
-        </nav>
+                    <li><span class="iconify" data-icon="ic:baseline-help-center"></span>Support</li>
+                    <li><span class="iconify" data-icon="ant-design:safety-certificate-filled"></span>Privacy</li>
+                </ul>
+            </aside>
 
-
-        <div id="header">
-            <div class="search-bar"><span class="iconify" data-icon="ant-design:search-outlined"></span><input
-                    type="search"></div>
-            <div class="user-section mt">
-                <div><img src="avatar.png" alt="">
-                    <div class="user-intro">
-                        <span>
-                            <p class="user-intro-text">Hi there,</p>
-                        </span>
-                        <p>John Doe (@JohnDoe)</p>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="buttons">
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
-            </div>
-
-            <div>
-                <span>
-                    <h1 style="margin-top: 30px; margin-bottom: 20px;">Your Projects</h1>
-                </span>
-                <div id="projects-grid">
-                    <div>
-                        <h3>Super Cool Project 1</h3>
-                        <div>
-                            <p>Text just to fill the screen text just to fill the screen text just to fill the screen
-                                text just to fill the screen </p>
-                        </div>
-                    </div>
-                    <div>
-                        <h3>Super Cool Project 2</h3>
-                        <div>
-                            <p>Text just to fill the screen text just to fill the screen text just to fill the screen
-                                text just to fill the screen </p>
-                        </div>
-                    </div>
-                    <div>
-                        <h3>Super Cool Project 3</h3>
-                        <div>
-                            <p>Text just to fill the screen text just to fill the screen text just to fill the screen
-                                text just to fill the screen </p>
-                        </div>
-                    </div>
-                    <div>
-                        <h3>Super Cool Project 4</h3>
-                        <div>
-                            <p>Text just to fill the screen text just to fill the screen text just to fill the screen
-                                text just to fill the screen </p>
-                        </div>
-                    </div>
-                    <div>
-                        <h3>Super Cool Project 5</h3>
-                        <div>
-                            <p>Text just to fill the screen text just to fill the screen text just to fill the screen
-                                text just to fill the screen </p>
-                        </div>
-                    </div>
-                    <div>
-                        <h3>Super Cool Project 6</h3>
-                        <div>
-                            <p>Text just to fill the screen text just to fill the screen text just to fill the screen
-                                text just to fill the screen </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="user-profile profile mt">
-                <div><img src="avatar.png" alt="" class="profile-image">
-                    <div class="user-intro">
-                        <p class="profile-name">John Doe</p>
-                    </div>
-                </div>
-            </div>
         </div>
+
     </div>
-
-    <article>
-        <h1>Announcements</h1>
-        <div id="card">
-            <h3>Site maintenance</h3>
-            <p>Text just to fill the screen text just to fill the screen text just to fill the screen
-                text just to fill the screen </p>
-            <hr>
-
-            <h3>Community Share Day</h3>
-            <p>Text just to fill the screen text just to fill the screen text just to fill the screen
-                text just to fill the screen </p>
-            <hr>
-
-            <h3>Updated Privacy Policy</h3>
-            <p>Text just to fill the screen text just to fill the screen text just to fill the screen
-                text just to fill the screen </p>
-        </div>
-    </article>
-
-    <div style="margin-right: 113px;
-    margin-top: -400px;">
-        <h1 style="    float: right;
-    margin-top: -103px;
-    margin-right: 188px;">Trending</h1>
-        <div style="    margin-top: -75px;
-    border: 1px solid blue;
-    width: 250px;
-    float: right;">
-            <p class="profile-name"><img src="avatar.png" alt="" class="profile-image">@JohnDoe</p>
-            <p>Text here</p>
-            <p class="profile-name"><img src="avatar.png" alt="" class="profile-image">@JohnDoe</p>
-            <p>Text here</p>
-            <p class="profile-name"><img src="avatar.png" alt="" class="profile-image">@JohnDoe</p>
-            <p>Text here</p>
-            <p class="profile-name"><img src="avatar.png" alt="" class="profile-image">@JohnDoe</p>
-            <p>Text here</p>
-        </div>
-    </div>
-
 </body>
 
 </html>
